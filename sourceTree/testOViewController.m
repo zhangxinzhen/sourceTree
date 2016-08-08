@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+
+    NSLog(@"这是test_testtest增加的功能");
+
 }
 
 - (void)didReceiveMemoryWarning {
