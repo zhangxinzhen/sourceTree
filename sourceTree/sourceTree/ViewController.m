@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "testOViewController.h"
+
+
 
 @interface ViewController ()
 
@@ -16,13 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self test];
-
+    [self test_test];
 }
--(void)test{
-
+-(void)test_test{
+    testOViewController *vc = [[testOViewController alloc]init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
