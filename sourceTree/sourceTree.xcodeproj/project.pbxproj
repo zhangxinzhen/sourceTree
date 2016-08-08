@@ -14,6 +14,8 @@
 		921C4C021D5854AE00A1CC0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921C4C011D5854AE00A1CC0C /* Assets.xcassets */; };
 		921C4C051D5854AE00A1CC0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921C4C031D5854AE00A1CC0C /* LaunchScreen.storyboard */; };
 		921C4C101D5854AE00A1CC0C /* sourceTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921C4C0F1D5854AE00A1CC0C /* sourceTreeTests.m */; };
+		921C4C1D1D585C1A00A1CC0C /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921C4C1B1D585C1A00A1CC0C /* TestViewController.m */; };
+		921C4C1E1D585C1A00A1CC0C /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 921C4C1C1D585C1A00A1CC0C /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		921C4C0B1D5854AE00A1CC0C /* sourceTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sourceTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		921C4C0F1D5854AE00A1CC0C /* sourceTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sourceTreeTests.m; sourceTree = "<group>"; };
 		921C4C111D5854AE00A1CC0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921C4C1A1D585C1A00A1CC0C /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		921C4C1B1D585C1A00A1CC0C /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		921C4C1C1D585C1A00A1CC0C /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				921C4BF91D5854AE00A1CC0C /* AppDelegate.m */,
 				921C4BFB1D5854AE00A1CC0C /* ViewController.h */,
 				921C4BFC1D5854AE00A1CC0C /* ViewController.m */,
+				921C4C1A1D585C1A00A1CC0C /* TestViewController.h */,
+				921C4C1B1D585C1A00A1CC0C /* TestViewController.m */,
+				921C4C1C1D585C1A00A1CC0C /* TestViewController.xib */,
 				921C4BFE1D5854AE00A1CC0C /* Main.storyboard */,
 				921C4C011D5854AE00A1CC0C /* Assets.xcassets */,
 				921C4C031D5854AE00A1CC0C /* LaunchScreen.storyboard */,
@@ -193,6 +201,7 @@
 			files = (
 				921C4C051D5854AE00A1CC0C /* LaunchScreen.storyboard in Resources */,
 				921C4C021D5854AE00A1CC0C /* Assets.xcassets in Resources */,
+				921C4C1E1D585C1A00A1CC0C /* TestViewController.xib in Resources */,
 				921C4C001D5854AE00A1CC0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +222,7 @@
 			files = (
 				921C4BFD1D5854AE00A1CC0C /* ViewController.m in Sources */,
 				921C4BFA1D5854AE00A1CC0C /* AppDelegate.m in Sources */,
+				921C4C1D1D585C1A00A1CC0C /* TestViewController.m in Sources */,
 				921C4BF71D5854AE00A1CC0C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
