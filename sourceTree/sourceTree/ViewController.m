@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "TestViewController.h"
+
 
 @interface ViewController ()
 
@@ -20,6 +22,12 @@
 
 }
 -(void)test{
+    
+    TestViewController *vc = [[TestViewController alloc]init];
+    
+    [self presentViewController:vc animated:YES completion:^{
+        
+    }];
 
 }
 
